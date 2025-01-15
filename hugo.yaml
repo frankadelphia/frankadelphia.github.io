@@ -5,7 +5,8 @@ params:
     email: bburkhart@drew.edu
   subtitle: Bryant Burkhart
 title: Bryant Burkhart
-theme: https://github.com/adityatelange/hugo-PaperMod
+theme:
+  - github.com/adityatelange/hugo-PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
