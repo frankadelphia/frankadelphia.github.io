@@ -6,7 +6,7 @@ params:
   subtitle: Bryant Burkhart
 title: Bryant Burkhart
 theme:
-  - github.com/adityatelange/hugo-PaperMod
+  - Papermod
 
 enableRobotsTXT: true
 buildDrafts: false
