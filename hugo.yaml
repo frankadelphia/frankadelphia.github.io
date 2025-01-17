@@ -1,10 +1,10 @@
-baseURL: https://frankadelphia.github.io/bryantburkhart
+baseURL: https://frankadelphia.github.io
 languageCode: en-us
 params:
   contact:
     email: bburkhart@drew.edu
   subtitle: Bryant Burkhart
-title: Bryant Burkhart
+title: created by Bryant Burkhart
 theme:
   - PaperMod
 
@@ -63,21 +63,24 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Bryant Burkhart
-    subtitle: "theologian, carpenter, nerd"
+    subtitle: "theologian, carpenter, socialist (just like Jesus)"
     imageUrl: "profilesquare.jpeg"
-    imageWidth: 560
-    imageHeight: 560
+    imageWidth: 500
+    imageHeight: 500
     imageTitle: my image
     buttons:
+      - name: CV
+        url: /CV
       - name: Papers
         url: /papers
       - name: Posts
         url: /posts
+      
 
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Under Construction
 
   socialIcons:
     - name: Bluesky

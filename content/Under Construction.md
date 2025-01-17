@@ -1,5 +1,5 @@
 ---
-title: "My 1st post"
+title: "Under Construction"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -35,3 +35,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+This site is (perpetually) under construction. Check back for more later. 
