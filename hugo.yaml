@@ -63,7 +63,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Bryant Burkhart
-    subtitle: "theologian, carpenter, socialist (just like Jesus)"
+    subtitle: "PhD student at Drew University studying theology, economics, and identity formation. Former woodwright and full-time lover of trees."
     imageUrl: "profilesquare.jpeg"
     imageWidth: 500
     imageHeight: 500
