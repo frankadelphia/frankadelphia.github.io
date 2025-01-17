@@ -6,7 +6,7 @@ params:
   subtitle: Bryant Burkhart
 title: Bryant Burkhart
 theme:
-  - Papermod
+  - PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
