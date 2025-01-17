@@ -87,7 +87,7 @@ params:
       url: "https://bryantburkhart.bsky.social"
     - name: Instagram
       url: "https://www.instagram.com/bryant.burkhart"
-    - name: Linked In
+    - name: LinkedIn
       url: "www.linkedin.com/in/bryant-burkhart-67332167"
 
   analytics:
@@ -119,16 +119,22 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
+    - identifier: CV
+      name: CV
+      url: /cv
+      weight: 10
     - identifier: Papers
       name: papers
       url: /papers/
-      weight: 10
+      weight: 20
     - identifier: Posts
       name: posts
       url: /posts/
-      weight: 20
+      weight: 30
+      
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -139,3 +145,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
