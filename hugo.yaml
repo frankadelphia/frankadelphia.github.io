@@ -19,9 +19,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Bryant Burkhart
+  description: "Personal portolio for Bryant Burkhart"
+  keywords: [Blog, Portfolio, PaperMod, theology, theological economics]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -89,6 +89,8 @@ params:
       url: "https://www.instagram.com/bryant.burkhart"
     - name: LinkedIn
       url: "www.linkedin.com/in/bryant-burkhart-67332167"
+    - name: Academia.edu
+      url: "https://drew.academia.edu/BryantBurkhart"
 
   analytics:
     google:
