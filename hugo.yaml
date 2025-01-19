@@ -67,30 +67,21 @@ params:
     imageUrl: "profilesquare.jpeg"
     imageWidth: 500
     imageHeight: 500
-    imageTitle: my image
-    buttons:
-      - name: CV
-        url: /CV
-      - name: Papers
-        url: /papers
-      - name: Posts
-        url: /posts
-      
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Under Construction
+    imageTitle: ProfilePhoto1
+    
 
   socialIcons:
+    - name: Email
+      url: "mailto:bburkhart@drew.edu"
+    - name: Academia
+      url: "https://drew.academia.edu/BryantBurkhart"
+    - name: LinkedIn
+      url: "www.linkedin.com/in/bryant-burkhart-67332167"
     - name: Bluesky
       url: "https://bryantburkhart.bsky.social"
     - name: Instagram
       url: "https://www.instagram.com/bryant.burkhart"
-    - name: LinkedIn
-      url: "www.linkedin.com/in/bryant-burkhart-67332167"
-    - name: Academia.edu
-      url: "https://drew.academia.edu/BryantBurkhart"
+  
 
   analytics:
     google:
@@ -122,18 +113,18 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
-menu:
+#menu:
   main:
     - identifier: CV
       name: CV
-      url: /cv
+      url: /CV
       weight: 10
     - identifier: Papers
-      name: papers
+      name: Papers
       url: /papers/
       weight: 20
     - identifier: Posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 30
       
