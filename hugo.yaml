@@ -65,8 +65,8 @@ params:
     title: Bryant Burkhart
     subtitle: "PhD student at Drew University studying theology, economics, and identity formation. Former woodwright and full-time lover of trees."
     imageUrl: "profilesquare.jpeg"
-    imageWidth: 500
-    imageHeight: 500
+    imageWidth: 350
+    imageHeight: 350
     imageTitle: ProfilePhoto1
     
 
